@@ -249,6 +249,7 @@ class Variables:
     lrtr: List = None
     lMtr: List = None
     lMtrtot: List = None
+    ftr: List = None
     tr2: List = None
     anisflag: int = None
     anis0: List = None
@@ -355,7 +356,7 @@ class Extra:
     debug: int = 0
 
 
-class IniBuilder(WrapperBase):
+class Builder(WrapperBase):
     """
 
     Build MAMPOSSt initialistion file
